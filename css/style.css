@@ -29,16 +29,6 @@ a:hover {
   text-decoration: underline overline dotted red;
 }
 
-.a-black{
-  color: black;
-  text-align: center;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
-  font-size: 120%;
-}
-
 a .rettangolo-nero{
   color: white;
 }
@@ -88,6 +78,25 @@ header {
   left: 0;
   width: 100%;
   z-index: 900;
+  background-color: white;
+}
+
+.a-black{
+  color: black;
+  text-align: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  font-size: 120%;
+}
+
+.centro-mainn{
+  color: black;
+  text-align: center;
+  padding-top: 3%;
+  background-color: white;
+  border: 0px;
 }
 
 #nav-mobile {
@@ -104,6 +113,11 @@ header {
   background-repeat: no-repeat
 }
 
+.white-main{
+background-color: transparent;
+border: 0px;
+}
+
 .text-jumbo{
   text-align: center;
 }
@@ -114,12 +128,15 @@ header {
   padding: 0 5%;
 }
 
+
+
 .free{
-  padding: 8% 0;
+  padding: 6% 0;
 }
 
 .pa-main{
-  padding: 3%
+  padding: 3%;
+  background-color: #fafafa;
 }
 
 #signorebici{
@@ -189,10 +206,16 @@ header {
   height: auto;
   background-position: center;
   background-repeat: no-repeat;
+  color: white;
 }
 
 .text-socialmain{
   font-size: larger;
+  font-weight: bold;
+}
+
+.back-social{
+  background-color: transparent;
 }
 
 /*footer rules*/
@@ -206,10 +229,15 @@ ul{
   list-style-type: none;
 }
 
-a footer{
+.white{
   color: white;
+}
+
+.black-foot{
+  background-color: black;
 }
 
 .foot-pad{
   padding: 5%;
+  background-color: black;
 }
